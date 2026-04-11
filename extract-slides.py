@@ -79,8 +79,8 @@ def extract(note_path, chapter, output_path):
     # Teaching slides
     if slides_section:
         out += "# TEACHING SLIDES\n\n---\n\n"
-        # Split by ## headings, add --- between
-        slide_blocks = re.split(r'\n(?=## \d)', slides_section)
+        # Split by ## headings (supports "## 01 Title", "## Slide 1: Title", "## Slide N Title")
+        slide_blocks = re.split(r'\n(?=## (?:\d|Slide))', slides_section)
         for block in slide_blocks:
             block = block.strip()
             if block:
@@ -91,7 +91,7 @@ def extract(note_path, chapter, output_path):
     with open(output_path, 'w') as f:
         f.write(out)
 
-    slide_count = len(re.findall(r'\n## \d', out))
+    slide_count = len(re.findall(r'\n## (?:\d|Slide)', out))
     print(f"OK: {output_path} ({slide_count} slides)")
     return output_path, title, slide_count
 
