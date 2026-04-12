@@ -37,7 +37,7 @@ jobs:
             --from=gfm \
             --to=html5 \
             --standalone \
-            --metadata title="腎臟專科考試複習 — Teaching Slides" \
+            --variable=pagetitle="腎臟專科考試複習 — Teaching Slides" \
             --metadata lang="zh-TW" \
             --css=index.css \
             --output=dist/index.html
