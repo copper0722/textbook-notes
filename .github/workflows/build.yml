@@ -18,16 +18,26 @@ jobs:
       - name: Install Marp CLI
         run: npm install -g @marp-team/marp-cli
 
-      - name: Build slides
+      - name: Build slides (Marp)
         run: |
           mkdir -p dist/slides
           for f in slides/*.md; do
             basename=$(basename "$f" .md)
             marp "$f" --html --output "dist/slides/${basename}.html"
           done
-          cp index.md dist/
-          # Convert index to HTML
-          marp dist/index.md --html --output dist/index.html 2>/dev/null || true
+
+      - name: Build index page (pandoc, responsive HTML)
+        run: |
+          mkdir -p dist
+          cp styles/index.css dist/index.css
+          pandoc index.md \
+            --from=gfm \
+            --to=html5 \
+            --standalone \
+            --metadata title="腎臟專科考試複習 — Teaching Slides" \
+            --metadata lang="zh-TW" \
+            --css=index.css \
+            --output=dist/index.html
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

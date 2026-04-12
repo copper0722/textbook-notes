@@ -1,0 +1,130 @@
+:root {
+  --primary: #1a5276;
+  --secondary: #2c3e50;
+  --text: #222;
+  --muted: #666;
+  --border: #e1e5e9;
+  --bg-alt: #f6f8fa;
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang TC",
+               "Heiti TC", "Microsoft JhengHei", "Noto Sans TC", sans-serif;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 4rem;
+  line-height: 1.65;
+  color: var(--text);
+  background: #fff;
+}
+
+h1 {
+  color: var(--primary);
+  font-size: 1.9rem;
+  margin: 0 0 0.3rem;
+  letter-spacing: 0.02em;
+}
+
+h2 {
+  color: var(--secondary);
+  font-size: 1.25rem;
+  margin: 0 0 1.5rem;
+  font-weight: 500;
+}
+
+h3 {
+  color: var(--primary);
+  font-size: 1.15rem;
+  margin: 2.25rem 0 0.75rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 2px solid var(--border);
+}
+
+p { margin: 0.75rem 0; }
+
+blockquote {
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  border-left: 3px solid var(--primary);
+  color: var(--muted);
+  background: var(--bg-alt);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.5rem 0 1.25rem;
+  table-layout: auto;
+  word-break: break-word;
+}
+
+th, td {
+  padding: 0.55rem 0.65rem;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  background: var(--bg-alt);
+  font-weight: 600;
+  color: var(--secondary);
+  border-bottom: 2px solid #cfd7df;
+}
+
+tr:hover td { background: #fafbfc; }
+
+th:first-child, td:first-child {
+  width: 3em;
+  text-align: center;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
+th:last-child, td:last-child {
+  width: 5em;
+  text-align: right;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s;
+}
+
+a:hover {
+  border-bottom-color: var(--primary);
+}
+
+strong { color: var(--secondary); }
+
+hr {
+  margin: 3rem 0 1rem;
+  border: 0;
+  border-top: 1px solid var(--border);
+}
+
+em {
+  display: block;
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-style: normal;
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 640px) {
+  body { padding: 1.25rem 0.9rem 2.5rem; }
+  h1 { font-size: 1.45rem; }
+  h2 { font-size: 1.05rem; }
+  table { font-size: 0.9rem; }
+  th, td { padding: 0.45rem 0.45rem; }
+  th:last-child, td:last-child { width: 4em; }
+}
