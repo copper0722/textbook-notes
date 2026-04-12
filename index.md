@@ -21,13 +21,29 @@ marp: false
 | 13 | [Ch13 抗凝](slides/daugirdas-ch13-抗凝.html) | 6 slides |
 | 14 | [Ch14 連續性腎臟替代治療（CRRT）](slides/daugirdas-ch14-連續性腎臟替代治療.html) | 4 slides |
 | 15 | [Ch15 居家與強化血液透析](slides/daugirdas-ch15-居家與強化血液透析.html) | 4 slides |
+| 16 | [擴散與對流清除率的比較｜Diffusion vs Convection-Based Clearances (Hemodiafiltration)](slides/daugirdas-ch16-diffusion-convection-clearances.html) | 20 slides |
 | 17 | [Ch17 治療性血漿分離術](slides/daugirdas-ch17-治療性血漿分離術.html) | 12 slides |
 | 18 | [Ch18 透析與血液灌流在中毒治療中的應用](slides/daugirdas-ch18-透析與血液灌流在中毒治療中的應用.html) | 20 slides |
+| 19 | [腹膜透析生理學｜Physiology of Peritoneal Dialysis](slides/daugirdas-ch19-腹膜透析生理學.html) | 27 slides |
+| 20 | [腹膜透析設備｜Apparatus for Peritoneal Dialysis](slides/daugirdas-ch20-腹膜透析設備.html) | 23 slides |
+| 21 | [腹膜透析導管置放與照護｜Peritoneal Dialysis Catheters: Placement and Care](slides/daugirdas-ch21-腹膜透析導管置放與照護.html) | 33 slides |
+| 22 | [Ch22 急性腎損傷的腹膜透析治療｜Peritoneal Dialysis for the Treatment of Acute Kidney Injury](slides/daugirdas-ch22-peritoneal-dialysis-a-k-i.html) | 16 slides |
+| 23 | [Ch23 慢性腹膜透析處方｜Prescription of Maintenance Peritoneal Dialysis](slides/daugirdas-ch23-prescription-maintenance-p-d.html) | 17 slides |
+| 24 | [腹膜透析中的容積狀態與體液過載｜Volume Status and Fluid Overload in Peritoneal Dialysis](slides/daugirdas-ch24-volume-status-fluid-overload-p-d.html) | 20 slides |
+| 25 | [腹膜炎與出口部感染｜Peritonitis and Exit-Site Infection](slides/daugirdas-ch25-peritonitis-exit-site-infection.html) | 17 slides |
+| 26 | [疝氣、滲漏與包覆性腹膜硬化症｜Hernias, Leaks, and Encapsulating Peritoneal Sclerosis](slides/daugirdas-ch26-hernias-leaks-e-p-s.html) | 23 slides |
 | 27 | [腹膜透析的代謝、酸鹼與電解質層面｜Metabolic, Acid-Base, and Electrolyte Aspects of Peritoneal Dialysis](slides/daugirdas-ch27-metabolic-acid-base-electrolyte-p-d.html) | 22 slides |
+| 28 | [腹膜透析之心理社會議題｜Psychosocial Issues](slides/daugirdas-ch28-psychosocial-issues-p-d.html) | 22 slides |
 | 29 | [Ch29 透析營養](slides/daugirdas-ch29-透析營養.html) | 4 slides |
 | 30 | [Ch30 透析與糖尿病](slides/daugirdas-ch30-透析與糖尿病.html) | 4 slides |
+| 31 | [高血壓與容積控制｜Hypertension and Volume Control](slides/daugirdas-ch31-高血壓與容積控制.html) | 18 slides |
 | 32 | [Ch32 貧血管理](slides/daugirdas-ch32-貧血管理.html) | 4 slides |
+| 33 | [感染｜Infections](slides/daugirdas-ch33-感染.html) | 15 slides |
 | 34 | [Ch34 礦物質與骨病變](slides/daugirdas-ch34-礦物質與骨病變.html) | 4 slides |
+| 35 | [嬰幼兒與兒童透析｜Dialysis in Infants and Children](slides/daugirdas-ch35-dialysis-infants-children.html) | 25 slides |
+| 36 | [透析患者的心血管疾病｜Cardiovascular Disease in Dialysis Patients](slides/daugirdas-ch36-cardiovascular-disease-dialysis.html) | 30 slides |
+| 37 | [透析病人之婦產科議題｜Obstetrics and Gynecology in Patients Undergoing Dialysis](slides/daugirdas-ch37-o-b-g-y-n-dialysis.html) | 36 slides |
+| 38 | [透析患者的神經系統與睡眠障礙｜Nervous System and Sleep Disorders](slides/daugirdas-ch38-nervous-system-sleep-disorders.html) | 36 slides |
 | 39 | [第 39 章 透析中病人自述結果與體驗量表｜Patient-Reported Outcomes and Experience Measures in Dialysis](slides/daugirdas-ch39-patient-reported-outcomes.html) | 20 slides |
 
 ---
