@@ -186,7 +186,7 @@ style: |
 
 ## 章末題目（Self-Assessment Questions）
 
-> Brenner 每章章末附 self-assessment MCQ（4 選項 + rationale），為考試重點整理。原書格式保留，實戰考題見 nephro-board-review cme/ 模組（TSN 5 選項格式）。
+> Brenner 每章章末附 self-assessment MCQ（4 選項 + rationale），為考試重點整理。原書格式保留，實戰考題見 textbook-notes cme/ 模組（TSN 5 選項格式）。
 
 ### Q1｜PD + 陰囊水腫
 

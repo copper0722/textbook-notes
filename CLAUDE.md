@@ -1,6 +1,6 @@
-# nephro-board-review — General Nephrology Textbook Slideshare
+# textbook-notes — General Nephrology Textbook Slideshare
 
-GitHub: `copper0722/nephro-board-review` (public) · GitHub Pages: https://copper0722.github.io/nephro-board-review/
+GitHub: `copper0722/textbook-notes` (public) · GitHub Pages: https://copper0722.github.io/textbook-notes/
 
 ## Purpose (2026-04-13 重新定位)
 
@@ -32,7 +32,7 @@ Vault textbook chapter note (ref/books/{edition}/{chXX}/*.md)
   ↓ GitHub Pages auto-deploy
 ```
 
-Auto-sync cron: `nephro-board-review-sync.py` (every 10 min, detects note mtime changes).
+Auto-sync cron: `textbook-notes-sync.py` (every 10 min, detects note mtime changes).
 
 ## Cross-link
 
