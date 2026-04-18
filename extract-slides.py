@@ -8,6 +8,7 @@ If --output not given, auto-generates from chapter number and note title.
 import argparse, re, sys, os
 
 DEFAULT_TEXTBOOK = "Brenner & Rector's The Kidney 12e"
+SLIDE_HEADING_RE = re.compile(r'\n## (?:\d|Slide)')
 
 MARP_TEMPLATE = """---
 marp: true

@@ -26,13 +26,14 @@ GitHub: `copper0722/textbook-notes` (public) · GitHub Pages: https://copper0722
 
 ```
 Vault textbook chapter note (ref/books/{edition}/{chXX}/*.md)
-  ↓ extract-slides.py
-  ↓ Marp format
-  ↓ push to this repo /slides/
-  ↓ GitHub Pages auto-deploy
+  ↓ extract-slides.py --textbook "Daugirdas Handbook of Dialysis 6e"
+  ↓ Marp .md → /slides/
+  ↓ brenner-slides-sync.py (vault-scripts) — auto-push on mtime change, every 10 min
+  ↓ GitHub Actions: Marp → dist/slides/*.html; pandoc index.md → dist/index.html
+  ↓ GitHub Pages deploy
 ```
 
-Auto-sync cron: `textbook-notes-sync.py` (every 10 min, detects note mtime changes).
+Auto-sync cron: `brenner-slides-sync.py` (vault-scripts repo, launchd every 10 min).
 
 ## Cross-link
 
