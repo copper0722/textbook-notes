@@ -7,14 +7,10 @@ retire_after: 2026-05-19
 
 # 📦 已遷移 / Moved
 
-此檔案已遷移到 **nephro-cme** repo（腎臟教學 slides 統一集散地）：
+此檔案已遷移到 **nephro-cme** repo：
 
-- 新位置: [`nephro-cme/slides/daugirdas/daugirdas-ch38-nervous-system-sleep-disorders.md`](https://github.com/copper0722/nephro-cme/blob/main/slides/daugirdas/daugirdas-ch38-nervous-system-sleep-disorders.md)
+- 新位置：[`nephro-cme/slides/daugirdas/daugirdas-ch38-nervous-system-sleep-disorders.md`](https://github.com/copper0722/nephro-cme/blob/main/slides/daugirdas/daugirdas-ch38-nervous-system-sleep-disorders.md)
 - GitHub Pages: https://copper0722.github.io/nephro-cme/slides/daugirdas/daugirdas-ch38-nervous-system-sleep-disorders.html
-- 遷移日期: 2026-04-19
-- 此 stub 保留 30 天緩衝；2026-05-19 後一併 archive
+- 遷移日期：2026-04-19（retire stub 2026-05-19）
 
-## 為什麼遷移
-
-`textbook-notes` repo 範疇調整為「**非腎臟**教科書 slides」（Mankiw、Netter、GraysAnatomy 等）。腎臟教科書 slides 集中到 `nephro-cme`（已含 note/ cme/ nephrology-cme-wiki/ 三 zone）。
-
+腎臟 slides 現統一由 **textbook-share-sync.py** pipeline 驅動（須 vault note frontmatter `publish: true` + `publish_to: nephro-cme` 才會推）。
