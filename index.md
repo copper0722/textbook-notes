@@ -2,52 +2,28 @@
 marp: false
 ---
 
-# 腎臟專科考試複習 — Teaching Slides
-## Nephrology Board Review
+# Textbook Teaching Slides
 
-### Daugirdas 6e
+## Scope (2026-04-19 rescope)
 
-| Ch | Title | Slides |
-|---|---|---|
-| 01 | [慢性腎臟病患者的評估方法｜Approach to Patients With Chronic Kidney Disease, Stages 1 to 4](slides/daugirdas-ch01-慢性腎臟病患者的評估方法.html) | 18 slides |
-| 02 | [CKD 4-5 期的管理：移植、透析或保守治療的準備｜Management of CKD Stages 4 and 5](slides/daugirdas-ch02-c-k-d-4-5-期的管理.html) | 17 slides |
-| 03 | [生理原理與尿素動力學模型｜Physiologic Principles and Urea Kinetic Modeling](slides/daugirdas-ch03-生理原理與尿素動力學.html) | 18 slides |
-| 04 | [血液透析設備｜Hemodialysis Apparatus](slides/daugirdas-ch04-血液透析設備.html) | 25 slides |
-| 05 | [透析用水與透析液｜Dialysis Water and Dialysis Solution](slides/daugirdas-ch05-透析用水與透析液.html) | 15 slides |
-| 06 | [Ch06 動靜脈瘻管與人工血管｜Arteriovenous Fistulas and Grafts](slides/daugirdas-ch06-動靜脈瘻管與人工血管.html) | 10 slides |
-| 07 | [靜脈導管通路基礎｜Venous Catheter Access: The Basics](slides/daugirdas-ch07-靜脈導管通路.html) | 25 slides |
-| 08 | [動靜脈血管通路的監測與併發症｜Arteriovenous Vascular Access Monitoring and Complications](slides/daugirdas-ch08-血管通路監測與併發症.html) | 20 slides |
-| 09 | [靜脈導管感染與其他併發症｜Venous Catheter Infections and Other Complications](slides/daugirdas-ch09-靜脈導管感染與併發症.html) | 20 slides |
-| 10 | [急性血液透析處方｜Acute Hemodialysis Prescription](slides/daugirdas-ch10-急性血液透析處方.html) | 18 slides |
-| 11 | [慢性血液透析處方｜Chronic Hemodialysis Prescription](slides/daugirdas-ch11-慢性血液透析處方.html) | 10 slides |
-| 12 | [血液透析中的併發症｜Complications During Hemodialysis](slides/daugirdas-ch12-血液透析中的併發症.html) | 22 slides |
-| 13 | [血液透析抗凝血治療｜Anticoagulation](slides/daugirdas-ch13-抗凝血治療.html) | 23 slides |
-| 14 | [持續性腎臟替代治療（CKRT）｜Continuous Kidney Replacement Therapies](slides/daugirdas-ch14-持續性腎臟替代治療.html) | 22 slides |
-| 15 | [居家與密集血液透析｜Home and Intensive Hemodialysis](slides/daugirdas-ch15-居家與密集血液透析.html) | 16 slides |
-| 16 | [擴散與對流清除率的比較｜Diffusion vs Convection-Based Clearances (Hemodiafiltration)](slides/daugirdas-ch16-diffusion-convection-clearances.html) | 20 slides |
-| 17 | [治療性血漿分離術｜Therapeutic Apheresis](slides/daugirdas-ch17-治療性血漿分離術.html) | 15 slides |
-| 18 | [透析與血液灌流在中毒治療的應用｜Use of Dialysis and Hemoperfusion in Treatment of Poisoning](slides/daugirdas-ch18-透析與血液灌流在中毒治療的應用.html) | 16 slides |
-| 19 | [腹膜透析生理學｜Physiology of Peritoneal Dialysis](slides/daugirdas-ch19-腹膜透析生理學.html) | 27 slides |
-| 20 | [腹膜透析設備｜Apparatus for Peritoneal Dialysis](slides/daugirdas-ch20-腹膜透析設備.html) | 23 slides |
-| 21 | [腹膜透析導管置放與照護｜Peritoneal Dialysis Catheters: Placement and Care](slides/daugirdas-ch21-腹膜透析導管置放與照護.html) | 33 slides |
-| 22 | [Ch22 急性腎損傷的腹膜透析治療｜Peritoneal Dialysis for the Treatment of Acute Kidney Injury](slides/daugirdas-ch22-peritoneal-dialysis-a-k-i.html) | 16 slides |
-| 23 | [Ch23 慢性腹膜透析處方｜Prescription of Maintenance Peritoneal Dialysis](slides/daugirdas-ch23-prescription-maintenance-p-d.html) | 17 slides |
-| 24 | [腹膜透析中的容積狀態與體液過載｜Volume Status and Fluid Overload in Peritoneal Dialysis](slides/daugirdas-ch24-volume-status-fluid-overload-p-d.html) | 20 slides |
-| 25 | [腹膜炎與出口部感染｜Peritonitis and Exit-Site Infection](slides/daugirdas-ch25-peritonitis-exit-site-infection.html) | 17 slides |
-| 26 | [疝氣、滲漏與包覆性腹膜硬化症｜Hernias, Leaks, and Encapsulating Peritoneal Sclerosis](slides/daugirdas-ch26-hernias-leaks-e-p-s.html) | 23 slides |
-| 27 | [腹膜透析的代謝、酸鹼與電解質層面｜Metabolic, Acid-Base, and Electrolyte Aspects of Peritoneal Dialysis](slides/daugirdas-ch27-metabolic-acid-base-electrolyte-p-d.html) | 22 slides |
-| 28 | [腹膜透析之心理社會議題｜Psychosocial Issues](slides/daugirdas-ch28-psychosocial-issues-p-d.html) | 22 slides |
-| 29 | [透析患者的營養｜Nutrition in Dialysis Patients](slides/daugirdas-ch29-透析營養.html) | 20 slides |
-| 30 | [透析患者的糖尿病管理｜Diabetes in Dialysis Patients](slides/daugirdas-ch30-透析與糖尿病.html) | 21 slides |
-| 31 | [高血壓與容積控制｜Hypertension and Volume Control](slides/daugirdas-ch31-高血壓與容積控制.html) | 18 slides |
-| 32 | [透析患者的血液學異常｜Hematologic Abnormalities](slides/daugirdas-ch32-血液學異常.html) | 20 slides |
-| 33 | [感染｜Infections](slides/daugirdas-ch33-感染.html) | 15 slides |
-| 34 | [透析患者的礦物質與骨病變（CKD-MBD）｜Mineral and Bone Disease](slides/daugirdas-ch34-礦物質與骨病變.html) | 15 slides |
-| 35 | [嬰幼兒與兒童透析｜Dialysis in Infants and Children](slides/daugirdas-ch35-dialysis-infants-children.html) | 25 slides |
-| 36 | [透析患者的心血管疾病｜Cardiovascular Disease in Dialysis Patients](slides/daugirdas-ch36-cardiovascular-disease-dialysis.html) | 30 slides |
-| 37 | [透析病人之婦產科議題｜Obstetrics and Gynecology in Patients Undergoing Dialysis](slides/daugirdas-ch37-o-b-g-y-n-dialysis.html) | 36 slides |
-| 38 | [透析患者的神經系統與睡眠障礙｜Nervous System and Sleep Disorders](slides/daugirdas-ch38-nervous-system-sleep-disorders.html) | 36 slides |
-| 39 | [第 39 章 透析中病人自述結果與體驗量表｜Patient-Reported Outcomes and Experience Measures in Dialysis](slides/daugirdas-ch39-病人自述結果與體驗量表.html) | 20 slides |
+**Non-nephrology** textbook teaching slides. Nephrology slides (Brenner, Daugirdas, Nissenson, Henrich, Pediatric Nephrology) have moved to [`copper0722/nephro-cme`](https://github.com/copper0722/nephro-cme) (now centralizes all nephrology teaching: `/note/`, `/slides/`, `/cme/`, `/nephrology-cme-wiki/`).
 
----
-*Teaching notes generated by Claude Code. Not original textbook content.*
+## Current corpus
+
+Empty. Awaiting first non-nephrology textbook content (e.g. Mankiw Economics, Netter Anatomy, GraysAnatomy, MolBioCell, Wash Manual internal medicine chapters).
+
+## Moved content (30-day redirect stubs in `slides/`, retire 2026-05-19)
+
+### Daugirdas 6e — moved to nephro-cme
+
+All 39 Daugirdas 6e chapter slides now live at [`nephro-cme/slides/daugirdas/`](https://github.com/copper0722/nephro-cme/tree/main/slides/daugirdas). GitHub Pages: `copper0722.github.io/nephro-cme/slides/daugirdas/{chapter}.html`.
+
+## Generation Pipeline
+
+Driven by `textbook-share-sync.py` (hm4 launchd) reading vault notes with frontmatter:
+```yaml
+publish: true
+publish_to: textbook-notes   # non-nephro only
+```
+
+extracts `## KEY TAKEAWAYS` + `## TEACHING SLIDES` sections → writes here.
