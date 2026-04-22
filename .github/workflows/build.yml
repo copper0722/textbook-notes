@@ -24,14 +24,9 @@ jobs:
       - name: Build slides (Marp, recursive)
         run: |
           mkdir -p dist/slides
-          # Recurse into book subfolders so e.g. slides/2026_Campbell_13e/Ch01.md
-          # → dist/slides/2026_Campbell_13e/Ch01.html. find handles 0-match gracefully.
-          while IFS= read -r f; do
-            rel="${f#slides/}"
-            out="dist/slides/${rel%.md}.html"
-            mkdir -p "$(dirname "$out")"
-            marp "$f" --html --output "$out"
-          done < <(find slides -name '*.md' -type f)
+          # Marp CLI --input-dir recurses naturally + preserves subfolder structure.
+          # Replaces earlier per-file loop that ran into "multiple files + --output" CLI conflict.
+          marp --input-dir slides --output dist/slides --html
 
       - name: Build takeaways (Marp, recursive)
         run: |
