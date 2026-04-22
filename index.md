@@ -4,16 +4,21 @@ marp: false
 
 # Textbook Teaching Slides
 
+> 📺 **Rendered slides + takeaways** at https://copper0722.github.io/textbook-notes/
+> 📝 Source `.md` files at https://github.com/copper0722/textbook-notes/
+
 ## Scope (2026-04-19 rescope)
 
 **Non-nephrology** textbook teaching slides. Nephrology slides (Brenner, Daugirdas, Nissenson, Henrich, Pediatric Nephrology) have moved to [`copper0722/nephro-cme`](https://github.com/copper0722/nephro-cme) (centralizes all nephrology teaching: `/note/`, `/slides/`, `/cme/`, `/nephrology-cme-wiki/`).
 
 ## Current corpus (updated 2026-04-22)
 
-| book | takeaways | slides |
+| book | takeaways (rendered) | slides (rendered) |
 |---|---|---|
-| **Campbell Biology 13e** | [Ch01 Evolution Themes Scientific Inquiry](takeaways/2026_Campbell_13e/Ch01_Evolution_Themes_Scientific_Inquiry.md) | [Ch01](slides/2026_Campbell_13e/Ch01_Evolution_Themes_Scientific_Inquiry.md) |
-| **Harrison 22e (non-nephro chapters)** | [list](takeaways/2025_Harrison_22e/) | [list](slides/2025_Harrison_22e/) |
+| **Campbell Biology 13e** | [Ch01 Evolution Themes Scientific Inquiry](takeaways/2026_Campbell_13e/Ch01_Evolution_Themes_Scientific_Inquiry.html) | [Ch01](slides/2026_Campbell_13e/Ch01_Evolution_Themes_Scientific_Inquiry.html) |
+| **Harrison 22e (non-nephro chapters)** | [folder](takeaways/2025_Harrison_22e/) | [folder](slides/2025_Harrison_22e/) |
+
+(Source `.md` available in [GitHub repo](https://github.com/copper0722/textbook-notes/tree/main).)
 
 Roadmap (待 vault note publish): Mankiw Economics · Netter Anatomy · Gray's Anatomy · Molecular Biology of the Cell · Wash Manual internal medicine chapters · remaining Harrison 22e non-nephro chapters.
 

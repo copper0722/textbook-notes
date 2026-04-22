@@ -21,13 +21,32 @@ jobs:
       - name: Install pandoc
         run: sudo apt-get install -y pandoc
 
-      - name: Build slides (Marp)
+      - name: Build slides (Marp, recursive)
         run: |
           mkdir -p dist/slides
-          for f in slides/*.md; do
-            basename=$(basename "$f" .md)
-            marp "$f" --html --output "dist/slides/${basename}.html"
-          done
+          # Recurse into book subfolders so e.g. slides/2026_Campbell_13e/Ch01.md
+          # → dist/slides/2026_Campbell_13e/Ch01.html. find handles 0-match gracefully.
+          while IFS= read -r f; do
+            rel="${f#slides/}"
+            out="dist/slides/${rel%.md}.html"
+            mkdir -p "$(dirname "$out")"
+            marp "$f" --html --output "$out"
+          done < <(find slides -name '*.md' -type f)
+
+      - name: Build takeaways (Marp, recursive)
+        run: |
+          mkdir -p dist/takeaways
+          while IFS= read -r f; do
+            rel="${f#takeaways/}"
+            out="dist/takeaways/${rel%.md}.html"
+            mkdir -p "$(dirname "$out")"
+            # takeaways are plain MD (no Marp directives) — use pandoc for clean HTML
+            pandoc "$f" --from=gfm --to=html5 --standalone \
+              --metadata lang="zh-TW" \
+              --variable=pagetitle="$(basename "$rel" .md) — Key Takeaways" \
+              --css=/textbook-notes/index.css \
+              --output="$out"
+          done < <(find takeaways -name '*.md' -type f)
 
       - name: Build index page (pandoc, responsive HTML)
         run: |
@@ -37,7 +56,7 @@ jobs:
             --from=gfm \
             --to=html5 \
             --standalone \
-            --variable=pagetitle="腎臟專科考試複習 — Teaching Slides" \
+            --variable=pagetitle="Textbook Teaching Slides — copper" \
             --metadata lang="zh-TW" \
             --css=index.css \
             --output=dist/index.html
