@@ -1,6 +1,6 @@
 ---
 _synced_from: proj/note/textbooks/2025_Harrison_22e/Harrison22e_Ch343.md
-_synced_at: '2026-04-24T08:15:05'
+_synced_at: '2026-04-24T09:15:05'
 title: 營養素需求與飲食評估｜Nutrient Requirements and Dietary Assessment
 book: 2025_Harrison_22e
 chapter: Harrison22e_Ch343
