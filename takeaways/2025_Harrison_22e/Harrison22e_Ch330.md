@@ -1,6 +1,6 @@
 ---
 _synced_from: proj/note/textbooks/2025_Harrison_22e/Harrison22e_Ch330.md
-_synced_at: '2026-04-24T11:15:06'
+_synced_at: '2026-04-24T12:15:05'
 title: 腎結石｜Nephrolithiasis
 book: 2025_Harrison_22e
 chapter: Harrison22e_Ch330
