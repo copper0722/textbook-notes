@@ -1,6 +1,6 @@
 ---
 _synced_from: proj/note/textbooks/2025_Harrison_22e/Harrison22e_Ch322.md
-_synced_at: '2026-04-25T02:15:02'
+_synced_at: '2026-04-25T03:15:04'
 title: 慢性腎臟病｜Chronic Kidney Disease
 book: 2025_Harrison_22e
 chapter: Harrison22e_Ch322
