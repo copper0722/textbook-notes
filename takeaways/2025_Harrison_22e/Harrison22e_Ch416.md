@@ -1,6 +1,6 @@
 ---
 _synced_from: proj/note/textbooks/2025_Harrison_22e/Harrison22e_Ch416.md
-_synced_at: '2026-04-25T05:15:05'
+_synced_at: '2026-04-25T06:15:04'
 title: '糖尿病：管理與治療｜Diabetes Mellitus: Management and Therapies'
 book: 2025_Harrison_22e
 chapter: Harrison22e_Ch416
