@@ -1,6 +1,6 @@
 ---
 _synced_from: proj/note/textbooks/2026_Campbell_13e/Ch01_Evolution_Themes_Scientific_Inquiry.md
-_synced_at: '2026-04-24T13:15:23'
+_synced_at: '2026-04-24T14:15:05'
 title: 演化、生物學主題與科學探究｜Evolution, the Themes of Biology, and Scientific Inquiry
 book: 2026_Campbell_13e
 chapter: Ch01_Evolution_Themes_Scientific_Inquiry
