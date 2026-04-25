@@ -1,6 +1,6 @@
 ---
 _synced_from: proj/note/textbooks/2025_Harrison_22e/Harrison22e_Ch415.md
-_synced_at: '2026-04-25T13:15:03'
+_synced_at: '2026-04-25T14:15:05'
 title: '糖尿病：診斷、分類與病理生理｜Diabetes Mellitus: Diagnosis, Classification, and Pathophysiology'
 book: 2025_Harrison_22e
 chapter: Harrison22e_Ch415
